@@ -8,6 +8,6 @@ public class PrimerIPay88 {
     }
     
     public func test() {
-        
+        let iPaySDK = Ipay()
     }
 }

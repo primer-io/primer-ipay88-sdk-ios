@@ -32,7 +32,6 @@ Pod::Spec.new do |s|
         'CODE_SIGNING_ALLOWED' => 'NO'
     }
     
-    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/Frameworks/iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/Ipay.h', 'PrimerIPay88SDK/Frameworks/iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/IpayPayment.h'
-    
-    s.vendored_libraries = 'PrimerIPay88SDK/Frameworks/iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/libipay88sdk.a'
+    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/lib/Ipay.h', 'PrimerIPay88SDK/lib/IpayPayment.h'
+    s.vendored_libraries = 'PrimerIPay88SDK/lib/libipay88sdk.a'
 end

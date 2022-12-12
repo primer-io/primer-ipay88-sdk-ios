@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CB999586B69F24EFB343E3F81604AA3 /* IpayPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = 4065B69D171490838A649B84AA3AA8C3 /* IpayPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		536EC6D50F12BDD133A1E7909218F2DB /* PrimerIPay88.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A9A769EC5F4CA88BA847C7CEF9BB54 /* PrimerIPay88.swift */; };
-		64DDC68913B38E5FB2000101B4912F3E /* PrimerIPay88SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A23D61F58B872483CA5BCCF564D37CB /* PrimerIPay88SDK-dummy.m */; };
+		3CB999586B69F24EFB343E3F81604AA3 /* IpayPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = B7109A3A4569E223B4C6B05F9B4EEC68 /* IpayPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536EC6D50F12BDD133A1E7909218F2DB /* PrimerIPay88.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFC49A1076D0E8E8FC291B8A1FA023A /* PrimerIPay88.swift */; };
+		64DDC68913B38E5FB2000101B4912F3E /* PrimerIPay88SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B437A313234E900F3E30EB043FE2C /* PrimerIPay88SDK-dummy.m */; };
 		75AEBDEEEBB09AE53D51D1BFE9A047DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9ED51D2A3AC93E878F4A5454F8216E53 /* Pods-PrimerIPay88SDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 432980A2C36C9F0C9CDE702F0048283A /* Pods-PrimerIPay88SDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B665CD444CA86D220F51A98BAD427B14 /* Ipay.h in Headers */ = {isa = PBXBuildFile; fileRef = 155EF016196BC1487FC7213D86813C35 /* Ipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD51716B1B54782AEAB72F47F03CE24 /* PrimerIPay88SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CAE257C2190DA938FFEF0E09B26944 /* PrimerIPay88SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B665CD444CA86D220F51A98BAD427B14 /* Ipay.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D67F20E1A2E7D206ACE40D37A45EAE /* Ipay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD51716B1B54782AEAB72F47F03CE24 /* PrimerIPay88SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0339B72791C01544C84C32E80D3D59C4 /* PrimerIPay88SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC73C9286EF2A9D5D428D5AB86348D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FE5C1D7BD890140734F318CBBB5E6889 /* Pods-PrimerIPay88SDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432A97C2A7E481670714347F4C26118C /* Pods-PrimerIPay88SDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DBDA3A3234395F2156A3AB479D3743F6 /* PBXContainerItemProxy */ = {
+		FD94A41C9757DFFA6A723E7F4BC8742D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -29,33 +29,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		155EF016196BC1487FC7213D86813C35 /* Ipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Ipay.h; sourceTree = "<group>"; };
+		0339B72791C01544C84C32E80D3D59C4 /* PrimerIPay88SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrimerIPay88SDK-umbrella.h"; sourceTree = "<group>"; };
 		183530874F78B1DE152ED81F6594DF0D /* Pods-PrimerIPay88SDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrimerIPay88SDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2206B8243880CD9CF14C3CF1E8C64013 /* Pods-PrimerIPay88SDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PrimerIPay88SDK_Example"; path = Pods_PrimerIPay88SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2845E5CD6D1113D7B4A68EECFB28BAAE /* Pods-PrimerIPay88SDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PrimerIPay88SDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2B415E723744A84B7BF8734F4FC231D6 /* PrimerIPay88SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PrimerIPay88SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3A23D61F58B872483CA5BCCF564D37CB /* PrimerIPay88SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrimerIPay88SDK-dummy.m"; sourceTree = "<group>"; };
-		3EA341BC4DAC80E943ACD349A59B61C1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4065B69D171490838A649B84AA3AA8C3 /* IpayPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IpayPayment.h; sourceTree = "<group>"; };
+		3E12CA2FE4474A977269CB3581A3711F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		432980A2C36C9F0C9CDE702F0048283A /* Pods-PrimerIPay88SDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrimerIPay88SDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		432A97C2A7E481670714347F4C26118C /* Pods-PrimerIPay88SDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrimerIPay88SDK_Example-dummy.m"; sourceTree = "<group>"; };
 		4B87EB9C5F21ED37F8297B6C80F6A0E8 /* Pods-PrimerIPay88SDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrimerIPay88SDK_Example-Info.plist"; sourceTree = "<group>"; };
-		52CAE257C2190DA938FFEF0E09B26944 /* PrimerIPay88SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrimerIPay88SDK-umbrella.h"; sourceTree = "<group>"; };
 		5A7F3CBC377D04978B80CAE3DF4B5574 /* PrimerIPay88SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PrimerIPay88SDK; path = PrimerIPay88SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607E4BA13F5B1549CA2027C8C79B4134 /* Pods-PrimerIPay88SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrimerIPay88SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6960DE56D4C12D3A4D693FD53F53E227 /* PrimerIPay88SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrimerIPay88SDK.debug.xcconfig; sourceTree = "<group>"; };
-		6BEEC8E2DEB0E01C22D139263709FC63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6FCC5861163EFCB43BB6C82711597080 /* PrimerIPay88SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrimerIPay88SDK.release.xcconfig; sourceTree = "<group>"; };
 		705A3F042B46DD99615F02EE8395C9E0 /* Pods-PrimerIPay88SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrimerIPay88SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		87A9A769EC5F4CA88BA847C7CEF9BB54 /* PrimerIPay88.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrimerIPay88.swift; sourceTree = "<group>"; };
+		7BFC49A1076D0E8E8FC291B8A1FA023A /* PrimerIPay88.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrimerIPay88.swift; sourceTree = "<group>"; };
+		7E834E8EF82B49B830D0DD2809811684 /* PrimerIPay88SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrimerIPay88SDK.release.xcconfig; sourceTree = "<group>"; };
+		818D7C03B963C4EF6EEE6AB93A52B0A9 /* libipay88sdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libipay88sdk.a; path = PrimerIPay88SDK/lib/libipay88sdk.a; sourceTree = "<group>"; };
+		8ECD03748F752F5BDC46B2B4960398D1 /* PrimerIPay88SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrimerIPay88SDK.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA9798C019D528F1243FCA792EDD0427 /* libipay88sdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libipay88sdk.a; path = "iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/libipay88sdk.a"; sourceTree = "<group>"; };
-		BAEFC3E4C9FD17B7F10FEE9A733C137D /* PrimerIPay88SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrimerIPay88SDK-prefix.pch"; sourceTree = "<group>"; };
-		BD519F26DB2F2F52C4AF6544B0B1845C /* PrimerIPay88SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrimerIPay88SDK-Info.plist"; sourceTree = "<group>"; };
-		C5E28D98A252E82C97EA7BB4AE5E5B41 /* PrimerIPay88SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PrimerIPay88SDK.modulemap; sourceTree = "<group>"; };
+		A34D50A2BC74D017828451FFA4B3F84E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B5F5D5E8E0337242E800534D5B134873 /* PrimerIPay88SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PrimerIPay88SDK-prefix.pch"; sourceTree = "<group>"; };
+		B7109A3A4569E223B4C6B05F9B4EEC68 /* IpayPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IpayPayment.h; sourceTree = "<group>"; };
+		C2D67F20E1A2E7D206ACE40D37A45EAE /* Ipay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Ipay.h; sourceTree = "<group>"; };
+		CC5C63A3578BBB0CC16C8F86ACC2B4A8 /* PrimerIPay88SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PrimerIPay88SDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE3F57DFE2A3DA87CFFBEBF4B85FC8DC /* Pods-PrimerIPay88SDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrimerIPay88SDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECE2D983E0B6775F44A5846954142FD8 /* PrimerIPay88SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PrimerIPay88SDK-Info.plist"; sourceTree = "<group>"; };
+		F50B437A313234E900F3E30EB043FE2C /* PrimerIPay88SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PrimerIPay88SDK-dummy.m"; sourceTree = "<group>"; };
 		F79A69B194B42EC526F7B6907B8E34E2 /* Pods-PrimerIPay88SDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrimerIPay88SDK_Example.modulemap"; sourceTree = "<group>"; };
+		FC58C2E144F834E79A8D183D01F989BC /* PrimerIPay88SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PrimerIPay88SDK.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,36 +78,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36EA4DCFAEB91707C4778ECE39E8E01D /* Development Pods */ = {
+		21ED5CC1C9A2186A210EA895CC4DC6D8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4FC97981BF1DEF17AEF4621742DEA12D /* PrimerIPay88SDK */,
+				A34D50A2BC74D017828451FFA4B3F84E /* LICENSE */,
+				CC5C63A3578BBB0CC16C8F86ACC2B4A8 /* PrimerIPay88SDK.podspec */,
+				3E12CA2FE4474A977269CB3581A3711F /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		3FA1189E42B276B08207BFD9202EB758 /* Support Files */ = {
+		225BED6888FC5776D4FB91561E53F916 /* PrimerIPay88SDK */ = {
 			isa = PBXGroup;
 			children = (
-				C5E28D98A252E82C97EA7BB4AE5E5B41 /* PrimerIPay88SDK.modulemap */,
-				3A23D61F58B872483CA5BCCF564D37CB /* PrimerIPay88SDK-dummy.m */,
-				BD519F26DB2F2F52C4AF6544B0B1845C /* PrimerIPay88SDK-Info.plist */,
-				BAEFC3E4C9FD17B7F10FEE9A733C137D /* PrimerIPay88SDK-prefix.pch */,
-				52CAE257C2190DA938FFEF0E09B26944 /* PrimerIPay88SDK-umbrella.h */,
-				6960DE56D4C12D3A4D693FD53F53E227 /* PrimerIPay88SDK.debug.xcconfig */,
-				6FCC5861163EFCB43BB6C82711597080 /* PrimerIPay88SDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PrimerIPay88SDK";
-			sourceTree = "<group>";
-		};
-		4FC97981BF1DEF17AEF4621742DEA12D /* PrimerIPay88SDK */ = {
-			isa = PBXGroup;
-			children = (
-				DC08E6D60F4F32E57D3A2B918CB496C4 /* Classes */,
-				E9CCD8CB59BCF0A8A4445C5E8B42C16D /* Frameworks */,
-				F798D344D1DBA2CCA4254A740D19DC5A /* Pod */,
-				3FA1189E42B276B08207BFD9202EB758 /* Support Files */,
+				E20D5985ED8F1F38BE967957CBDB0945 /* Classes */,
+				7844C584104BD16121397BD17E1C9540 /* Frameworks */,
+				F55435F462A5681B169074570E5CA0C7 /* lib */,
+				21ED5CC1C9A2186A210EA895CC4DC6D8 /* Pod */,
+				8087E470E992BA7EF72DEC5CAC9F760B /* Support Files */,
 			);
 			name = PrimerIPay88SDK;
 			path = ../..;
@@ -129,6 +117,29 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		7844C584104BD16121397BD17E1C9540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818D7C03B963C4EF6EEE6AB93A52B0A9 /* libipay88sdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8087E470E992BA7EF72DEC5CAC9F760B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ECD03748F752F5BDC46B2B4960398D1 /* PrimerIPay88SDK.modulemap */,
+				F50B437A313234E900F3E30EB043FE2C /* PrimerIPay88SDK-dummy.m */,
+				ECE2D983E0B6775F44A5846954142FD8 /* PrimerIPay88SDK-Info.plist */,
+				B5F5D5E8E0337242E800534D5B134873 /* PrimerIPay88SDK-prefix.pch */,
+				0339B72791C01544C84C32E80D3D59C4 /* PrimerIPay88SDK-umbrella.h */,
+				FC58C2E144F834E79A8D183D01F989BC /* PrimerIPay88SDK.debug.xcconfig */,
+				7E834E8EF82B49B830D0DD2809811684 /* PrimerIPay88SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PrimerIPay88SDK";
+			sourceTree = "<group>";
+		};
 		93C488502FE51ED84A66916FB42A7922 /* Pods-PrimerIPay88SDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,21 +157,11 @@
 			path = "Target Support Files/Pods-PrimerIPay88SDK_Example";
 			sourceTree = "<group>";
 		};
-		C50A44F6DCB4EAB24B09AE1189FB3C19 /* SDK */ = {
-			isa = PBXGroup;
-			children = (
-				155EF016196BC1487FC7213D86813C35 /* Ipay.h */,
-				4065B69D171490838A649B84AA3AA8C3 /* IpayPayment.h */,
-			);
-			name = SDK;
-			path = SDK;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				36EA4DCFAEB91707C4778ECE39E8E01D /* Development Pods */,
+				D24B549D4DF5B63839C06C2D05C0E063 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E447129011B03018AAD4C203B956D065 /* Products */,
 				592ADF01A9121DCC8D6B1270C902EFDF /* Targets Support Files */,
@@ -175,22 +176,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DC08E6D60F4F32E57D3A2B918CB496C4 /* Classes */ = {
+		D24B549D4DF5B63839C06C2D05C0E063 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				87A9A769EC5F4CA88BA847C7CEF9BB54 /* PrimerIPay88.swift */,
+				225BED6888FC5776D4FB91561E53F916 /* PrimerIPay88SDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E20D5985ED8F1F38BE967957CBDB0945 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7BFC49A1076D0E8E8FC291B8A1FA023A /* PrimerIPay88.swift */,
 			);
 			name = Classes;
 			path = PrimerIPay88SDK/Classes;
-			sourceTree = "<group>";
-		};
-		E33894CF38487A2D9FAE9048803D5E70 /* iPay88_IOS_SDK_v1.0.6.3_64 Bit */ = {
-			isa = PBXGroup;
-			children = (
-				C50A44F6DCB4EAB24B09AE1189FB3C19 /* SDK */,
-			);
-			name = "iPay88_IOS_SDK_v1.0.6.3_64 Bit";
-			path = "iPay88_IOS_SDK_v1.0.6.3_64 Bit";
 			sourceTree = "<group>";
 		};
 		E447129011B03018AAD4C203B956D065 /* Products */ = {
@@ -202,24 +202,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9CCD8CB59BCF0A8A4445C5E8B42C16D /* Frameworks */ = {
+		F55435F462A5681B169074570E5CA0C7 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				AA9798C019D528F1243FCA792EDD0427 /* libipay88sdk.a */,
-				E33894CF38487A2D9FAE9048803D5E70 /* iPay88_IOS_SDK_v1.0.6.3_64 Bit */,
+				C2D67F20E1A2E7D206ACE40D37A45EAE /* Ipay.h */,
+				B7109A3A4569E223B4C6B05F9B4EEC68 /* IpayPayment.h */,
 			);
-			name = Frameworks;
-			path = PrimerIPay88SDK/Frameworks;
-			sourceTree = "<group>";
-		};
-		F798D344D1DBA2CCA4254A740D19DC5A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6BEEC8E2DEB0E01C22D139263709FC63 /* LICENSE */,
-				2B415E723744A84B7BF8734F4FC231D6 /* PrimerIPay88SDK.podspec */,
-				3EA341BC4DAC80E943ACD349A59B61C1 /* README.md */,
-			);
-			name = Pod;
+			name = lib;
+			path = PrimerIPay88SDK/lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +266,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CEEF25419F34426143DF88F34097CACE /* PBXTargetDependency */,
+				5F5AC0F991D6F87855FE8D73DD817526 /* PBXTargetDependency */,
 			);
 			name = "Pods-PrimerIPay88SDK_Example";
 			productName = Pods_PrimerIPay88SDK_Example;
@@ -349,11 +339,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEEF25419F34426143DF88F34097CACE /* PBXTargetDependency */ = {
+		5F5AC0F991D6F87855FE8D73DD817526 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PrimerIPay88SDK;
 			target = 2F73DA6ECBB6EE19955E006DF1941B0E /* PrimerIPay88SDK */;
-			targetProxy = DBDA3A3234395F2156A3AB479D3743F6 /* PBXContainerItemProxy */;
+			targetProxy = FD94A41C9757DFFA6A723E7F4BC8742D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -522,7 +512,7 @@
 		};
 		E3EC72D589D39EF14F39090B74A5EEDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FCC5861163EFCB43BB6C82711597080 /* PrimerIPay88SDK.release.xcconfig */;
+			baseConfigurationReference = 7E834E8EF82B49B830D0DD2809811684 /* PrimerIPay88SDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -555,7 +545,7 @@
 		};
 		EACFB2EA104488C8F92F01F910D11880 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6960DE56D4C12D3A4D693FD53F53E227 /* PrimerIPay88SDK.debug.xcconfig */;
+			baseConfigurationReference = FC58C2E144F834E79A8D183D01F989BC /* PrimerIPay88SDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
