@@ -1,0 +1,10 @@
+Revision for IOS SDK
+==========================
+
+2/12/2014  - Update payment screen capture.
+19/1/2015  - Fix "Close" button on Hong Leong Online page.
+5/5/2015   - Include BackendURL implementation information.
+10/4/2019 - Enabled BITCODE as optional.
+14/8/2019 - Enhance to support Simulator
+
+
