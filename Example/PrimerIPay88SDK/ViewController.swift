@@ -54,6 +54,9 @@ class ViewController: UIViewController, PrimerIPay88ViewControllerDelegate {
         self.dismiss(animated: true) {
 //            self.vc = nil
         }
+    }
+    
+    func primerIPay88PaymentCancelled(payment: PrimerIPay88SDK.PrimerIPay88Payment?, error: PrimerIPay88SDK.PrimerIPay88Error?) {
         
     }
 }

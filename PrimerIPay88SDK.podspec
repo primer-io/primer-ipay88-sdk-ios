@@ -29,7 +29,8 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     
     s.xcconfig = {
-        'CODE_SIGNING_ALLOWED' => 'NO'
+        'CODE_SIGNING_ALLOWED' => 'NO',
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
     
     s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/lib/Ipay.h', 'PrimerIPay88SDK/lib/IpayPayment.h'
