@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
     s.summary          = 'A wrapper of the iPay88 SDK.'
     
     s.description      = <<-DESC
-    PrimerIPay88SDK is a wrapper of the iPay88 SDK that exposes its functionality source
-    it can be used within the PrimerSDK as a separate module. If you want to use iPay88 for
-    accepting payments from Primer you have to add `pod 'PrimerIPay88SDK'` in your podfile.
+    PrimerIPay88SDK is a wrapper of the iPay88 SDK that exposes its functionality, and It can
+    be used within the PrimerSDK as a separate module. If you want to use iPay88 for
+    accepting payments with Primer you have to add `pod 'PrimerIPay88SDK'` in your podfile.
     DESC
     
     s.homepage         = 'https://github.com/primer-io/primer-ipay88-sdk-ios'
