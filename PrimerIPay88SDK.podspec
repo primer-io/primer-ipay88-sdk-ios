@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
     s.name             = 'PrimerIPay88SDK'
-    s.version          = '0.1.0'
+    s.version          = ''
     s.summary          = 'A wrapper of the iPay88 SDK.'
     
     s.description      = <<-DESC
-    PrimerIPay88SDK is a wrapper of the iPay88 SDK that exposes its functionality source
-    it can be used within the PrimerSDK as a separate module. If you want to use iPay88 for
-    accepting payments from Primer you have to add `pod 'PrimerIPay88SDK'` in your podfile.
+    PrimerIPay88SDK is a wrapper of the iPay88 SDK that exposes its functionality, and It can
+    be used within the PrimerSDK as a separate module. If you want to use iPay88 for
+    accepting payments with Primer you have to add `pod 'PrimerIPay88SDK'` in your podfile.
     DESC
     
     s.homepage         = 'https://github.com/primer-io/primer-ipay88-sdk-ios'
@@ -32,7 +32,6 @@ Pod::Spec.new do |s|
         'CODE_SIGNING_ALLOWED' => 'NO'
     }
     
-    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/Frameworks/iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/Ipay.h', 'PrimerIPay88SDK/Frameworks/iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/IpayPayment.h'
-    
-    s.vendored_libraries = 'PrimerIPay88SDK/Frameworks/iPay88_IOS_SDK_v1.0.6.3_64 Bit/SDK/libipay88sdk.a'
+    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/lib/Ipay.h', 'PrimerIPay88SDK/lib/IpayPayment.h'
+    s.vendored_libraries = 'PrimerIPay88SDK/lib/libipay88sdk.a'
 end
