@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     
     s.xcconfig = {
-        'CODE_SIGNING_ALLOWED' => 'NO',
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
     
