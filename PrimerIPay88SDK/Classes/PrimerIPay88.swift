@@ -25,13 +25,13 @@ public class PrimerIPay88ViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
         
         self.iPay88DelegateProxy.paymentSucceeded = { [weak self] refNo, transId, amount, remark, authCode in
-            if let refNo {
+            if let refNo = refNo {
                 self?.payment.refNo = refNo
             }
             
             self?.payment.transId = transId
             
-            if let amount {
+            if let amount = amount {
                 self?.payment.amount = amount
             }
 
@@ -42,39 +42,39 @@ public class PrimerIPay88ViewController: UIViewController {
         }
         
         self.iPay88DelegateProxy.paymentFailed = { [weak self] refNo, transId, amount, remark, errDesc in
-            if let refNo {
+            if let refNo = refNo {
                 self?.payment.refNo = refNo
             }
             
             self?.payment.transId = transId
             
-            if let amount {
+            if let amount = amount {
                 self?.payment.amount = amount
             }
 
             self?.payment.remark = remark
             
-            if let errDesc {
+            if let errDesc = errDesc {
                 let err = PrimerIPay88Error.iPay88Error(description: errDesc, userInfo: nil)
                 self?.delegate?.primerIPay88PaymentSessionCompleted(payment: self?.payment, error: err)
             }
         }
         
         self.iPay88DelegateProxy.paymentCancelled = { [weak self] refNo, transId, amount, remark, errDesc in
-            if let refNo {
+            if let refNo = refNo {
                 self?.payment.refNo = refNo
             }
             
             self?.payment.transId = transId
             
-            if let amount {
+            if let amount = amount {
                 self?.payment.amount = amount
             }
 
             self?.payment.remark = remark
             
             var err: PrimerIPay88Error?
-            if let errDesc {
+            if let errDesc = errDesc {
                 err = PrimerIPay88Error.iPay88Error(description: errDesc, userInfo: nil)
             }
             

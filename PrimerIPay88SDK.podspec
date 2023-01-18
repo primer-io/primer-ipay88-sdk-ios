@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'PrimerIPay88SDK'
-    s.version          = ''
+    s.version          = '0.1.3'
     s.summary          = 'A wrapper of the iPay88 SDK.'
     
     s.description      = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     
     s.xcconfig = {
-        'CODE_SIGNING_ALLOWED' => 'NO'
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
     
     s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/lib/Ipay.h', 'PrimerIPay88SDK/lib/IpayPayment.h'

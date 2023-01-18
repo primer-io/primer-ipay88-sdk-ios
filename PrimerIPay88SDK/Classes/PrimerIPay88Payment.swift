@@ -5,6 +5,8 @@
 //  Created by Evangelos on 12/12/22.
 //
 
+#if canImport(UIKit)
+
 import Foundation
 
 public class PrimerIPay88Payment: NSObject {
@@ -79,3 +81,5 @@ public class PrimerIPay88Payment: NSObject {
         return iPay88Payment
     }
 }
+
+#endif
