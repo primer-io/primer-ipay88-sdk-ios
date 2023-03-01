@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'PrimerIPay88SDK'
+    s.name             = 'PrimerIPay88MHSDK'
     s.version          = '0.1.3'
     s.summary          = 'A wrapper of the iPay88 SDK.'
     
@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
     
-    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/lib/Ipay.h', 'PrimerIPay88SDK/lib/IpayPayment.h'
-    s.vendored_libraries = 'PrimerIPay88SDK/lib/libipay88sdk.a'
+    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/lib/MH/Ipay.h', 'PrimerIPay88SDK/lib/MH/IpayPayment.h'
+    s.vendored_libraries = 'PrimerIPay88SDK/lib/MH/libipay88sdk.a'
 end
