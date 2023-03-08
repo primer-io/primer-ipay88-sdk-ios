@@ -100,7 +100,6 @@ public class PrimerIPay88ViewController: UIViewController {
     
     private func render() {
         self.iPay88PaymentView = self.iPay88SDK.checkout(self.payment.iPay88Payment)
-        self.iPay88PaymentView = self.iPay88SDK.checkout(self.payment.iPay88Payment)
         self.view.addSubview(self.iPay88PaymentView)
         
         self.iPay88PaymentView.translatesAutoresizingMaskIntoConstraints = false

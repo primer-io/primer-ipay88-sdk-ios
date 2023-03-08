@@ -98,7 +98,7 @@ public class PrimerIPay88Payment: NSObject {
         iPay88Payment.backendPostURL = self.backendPostURL
         iPay88Payment.appdeeplink = self.appdeeplink
         iPay88Payment.actionType = self.actionType
-        iPay88Payment.tokenId = self.tokenId
+        iPay88Payment.tokenId = ""
         iPay88Payment.promoCode = self.promoCode
         iPay88Payment.fixPaymentId = self.fixPaymentId
         
