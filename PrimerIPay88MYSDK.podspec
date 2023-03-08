@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'PrimerIPay88MHSDK'
+    s.name             = 'PrimerIPay88MYSDK'
     s.version          = '0.1.3'
     s.summary          = 'A wrapper of the iPay88 SDK.'
     
