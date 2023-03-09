@@ -167,16 +167,6 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
         self.onPaymentSucceeded?(refNo, transId, amount, remark, authCode, tokenId, ccName, ccNo, s_bankname, s_country)
     }
     
-    //    public func paymentSuccess(
-    //        _ refNo: String!,
-    //        withTransId transId: String!,
-    //        withAmount amount: String!,
-    //        withRemark remark: String!,
-    //        withAuthCode authCode: String!
-    //    ) {
-    //        self.paymentSucceeded?(refNo, transId, amount, remark, authCode)
-    //    }
-    
     func paymentFailed(
         _ refNo: String!,
         withTransId transId: String!,
@@ -203,25 +193,6 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
         self.onPaymentFailed?(refNo, transId, amount, remark, tokenId, ccName, ccNo, s_bankname, s_country, errDesc)
     }
     
-    //    public func paymentFailed(
-    //        _ refNo: String!,
-    //        withTransId transId: String!,
-    //        withAmount amount: String!,
-    //        withRemark remark: String!,
-    //        withErrDesc errDesc: String!
-    //    ) {
-    //        // "Duplicate reference number"
-    //        // "Invalid merchant"
-    //        // "Invalid parameters"
-    //        // "Overlimit per transaction"
-    //        // "Payment not allowed"
-    //        // "Permission not allow"
-    //        // "Signature not match"
-    //        // "Status not approved"
-    //        // "Transaction Timeout"
-    //        self.paymentFailed?(refNo, transId, amount, remark, errDesc)
-    //    }
-    
     func paymentCancelled(
         _ refNo: String!,
         withTransId transId: String!,
@@ -236,16 +207,6 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
     ) {
         self.onPaymentCancelled?(refNo, transId, amount, remark, tokenId, ccName, ccNo, s_bankname, s_country, errDesc)
     }
-    
-    //    public func paymentCancelled(
-    //        _ refNo: String!,
-    //        withTransId transId: String!,
-    //        withAmount amount: String!,
-    //        withRemark remark: String!,
-    //        withErrDesc errDesc: String!
-    //    ) {
-    //        self.onPaymentCancelled?(refNo, transId, amount, remark, errDesc)
-    //    }
             
     func requerySuccess(
         _ refNo: String!,
