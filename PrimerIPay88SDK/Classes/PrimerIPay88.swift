@@ -101,7 +101,7 @@ public class PrimerIPay88ViewController: UIViewController {
     private func render() {
         self.iPay88PaymentView = self.iPay88SDK.checkout(self.payment.iPay88Payment)
         self.view.addSubview(self.iPay88PaymentView)
-        
+                
         self.iPay88PaymentView.translatesAutoresizingMaskIntoConstraints = false
         self.iPay88PaymentView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0.0).isActive = true
         self.iPay88PaymentView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0.0).isActive = true
@@ -214,7 +214,7 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
         withAmount amount: String!,
         withResult result: String!
     ) {
-
+        self.onPaymentSucceeded?(refNo, nil, amount, nil, nil, nil, nil, nil, nil, nil)
     }
     
     func requeryFailed(
@@ -223,7 +223,7 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
         withAmount amount: String!,
         withErrDesc errDesc: String!)
     {
-        
+        self.onPaymentFailed?(refNo, nil, amount, nil, nil, nil, nil, nil, nil, errDesc)
     }
 }
 
