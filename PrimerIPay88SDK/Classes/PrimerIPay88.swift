@@ -10,7 +10,7 @@ public protocol PrimerIPay88ViewControllerDelegate: AnyObject {
 }
 
 public class PrimerIPay88ViewController: UIViewController {
-
+    
     private let iPay88SDK = Ipay()
     private let payment: PrimerIPay88Payment
     private weak var iPay88PaymentView: UIView!
@@ -24,7 +24,8 @@ public class PrimerIPay88ViewController: UIViewController {
         
         super.init(nibName: nil, bundle: nil)
         
-        self.iPay88DelegateProxy.paymentSucceeded = { [weak self] refNo, transId, amount, remark, authCode in
+        self.iPay88DelegateProxy.onPaymentSucceeded = { [weak self] refNo, transId, amount, remark, authCode, tokenId, ccName, ccNo, s_bankname, s_country in
+            
             if let refNo = refNo {
                 self?.payment.refNo = refNo
             }
@@ -34,14 +35,16 @@ public class PrimerIPay88ViewController: UIViewController {
             if let amount = amount {
                 self?.payment.amount = amount
             }
-
+            
             self?.payment.remark = remark
-            self?.payment.authorizationCode = authCode
+            self?.payment.authCode = authCode
+            self?.payment.tokenId = tokenId
             
             self?.delegate?.primerIPay88PaymentSessionCompleted(payment: self?.payment, error: nil)
         }
         
-        self.iPay88DelegateProxy.paymentFailed = { [weak self] refNo, transId, amount, remark, errDesc in
+        self.iPay88DelegateProxy.onPaymentFailed = { [weak self] refNo, transId, amount, remark, tokenId, ccName, ccNo, s_bankname, s_country, errDesc in
+            
             if let refNo = refNo {
                 self?.payment.refNo = refNo
             }
@@ -51,8 +54,9 @@ public class PrimerIPay88ViewController: UIViewController {
             if let amount = amount {
                 self?.payment.amount = amount
             }
-
+            
             self?.payment.remark = remark
+            self?.payment.tokenId = tokenId
             
             if let errDesc = errDesc {
                 let err = PrimerIPay88Error.iPay88Error(description: errDesc, userInfo: nil)
@@ -60,7 +64,7 @@ public class PrimerIPay88ViewController: UIViewController {
             }
         }
         
-        self.iPay88DelegateProxy.paymentCancelled = { [weak self] refNo, transId, amount, remark, errDesc in
+        self.iPay88DelegateProxy.onPaymentCancelled = { [weak self] refNo, transId, amount, remark, tokenId, ccName, ccNo, s_bankname, s_country, errDesc in
             if let refNo = refNo {
                 self?.payment.refNo = refNo
             }
@@ -70,8 +74,9 @@ public class PrimerIPay88ViewController: UIViewController {
             if let amount = amount {
                 self?.payment.amount = amount
             }
-
+            
             self?.payment.remark = remark
+            self?.payment.tokenId = tokenId
             
             var err: PrimerIPay88Error?
             if let errDesc = errDesc {
@@ -95,9 +100,8 @@ public class PrimerIPay88ViewController: UIViewController {
     
     private func render() {
         self.iPay88PaymentView = self.iPay88SDK.checkout(self.payment.iPay88Payment)
-        self.iPay88PaymentView = self.iPay88SDK.checkout(self.payment.iPay88Payment)
         self.view.addSubview(self.iPay88PaymentView)
-        
+                
         self.iPay88PaymentView.translatesAutoresizingMaskIntoConstraints = false
         self.iPay88PaymentView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0.0).isActive = true
         self.iPay88PaymentView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0.0).isActive = true
@@ -108,15 +112,74 @@ public class PrimerIPay88ViewController: UIViewController {
 
 class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
     
-    var paymentSucceeded: ((_ refNo: String?, _ transId: String?, _ amount: String?, _ remark: String?, _ authCode: String?) -> Void)?
-    var paymentFailed: ((_ refNo: String?, _ transId: String?, _ amount: String?, _ remark: String?, _ errDesc: String?) -> Void)?
-    var paymentCancelled: ((_ refNo: String?, _ transId: String?, _ amount: String?, _ remark: String?, _ errDesc: String?) -> Void)?
+    var onPaymentSucceeded: (
+        (
+            _ refNo: String?,
+            _ transId: String?,
+            _ amount: String?,
+            _ remark: String?,
+            _ authCode: String?,
+            _ tokenId: String?,
+            _ ccName: String?,
+            _ ccNo: String?,
+            _ s_bankname: String?,
+            _ s_country: String?
+        ) -> Void)?
+    var onPaymentFailed: (
+        (
+            _ refNo: String?,
+            _ transId: String?,
+            _ amount: String?,
+            _ remark: String?,
+            _ tokenId: String?,
+            _ ccName: String?,
+            _ ccNo: String?,
+            _ s_bankname: String?,
+            _ s_country: String?,
+            _ errDesc: String?
+        ) -> Void)?
+    var onPaymentCancelled: (
+        (
+            _ refNo: String?,
+            _ transId: String?,
+            _ amount: String?,
+            _ remark: String?,
+            _ tokenId: String?,
+            _ ccName: String?,
+            _ ccNo: String?,
+            _ s_bankname: String?,
+            _ s_country: String?,
+            _ errDesc: String?
+        ) -> Void)?
     
-    public func paymentSuccess(_ refNo: String!, withTransId transId: String!, withAmount amount: String!, withRemark remark: String!, withAuthCode authCode: String!) {
-        self.paymentSucceeded?(refNo, transId, amount, remark, authCode)
+    func paymentSuccess(
+        _ refNo: String!,
+        withTransId transId: String!,
+        withAmount amount: String!,
+        withRemark remark: String!,
+        withAuthCode authCode: String!,
+        withTokenId tokenId: String!,
+        withCCName ccName: String!,
+        withCCNo ccNo: String!,
+        withS_bankname s_bankname: String!,
+        withS_country s_country: String!
+    ) {
+        self.onPaymentSucceeded?(refNo, transId, amount, remark, authCode, tokenId, ccName, ccNo, s_bankname, s_country)
     }
     
-    public func paymentFailed(_ refNo: String!, withTransId transId: String!, withAmount amount: String!, withRemark remark: String!, withErrDesc errDesc: String!) {
+    func paymentFailed(
+        _ refNo: String!,
+        withTransId transId: String!,
+        withAmount amount: String!,
+        withRemark remark: String!,
+        withTokenId tokenId: String!,
+        withCCName ccName: String!,
+        withCCNo ccNo: String!,
+        withS_bankname s_bankname: String!,
+        withS_country s_country: String!,
+        withErrDesc errDesc: String!
+    ) {
+        // Errors:
         // "Duplicate reference number"
         // "Invalid merchant"
         // "Invalid parameters"
@@ -126,19 +189,41 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
         // "Signature not match"
         // "Status not approved"
         // "Transaction Timeout"
-        self.paymentFailed?(refNo, transId, amount, remark, errDesc)
-    }
-    
-    public func paymentCancelled(_ refNo: String!, withTransId transId: String!, withAmount amount: String!, withRemark remark: String!, withErrDesc errDesc: String!) {
-        self.paymentCancelled?(refNo, transId, amount, remark, errDesc)
-    }
-    
-    public func requerySuccess(_ refNo: String!, withMerchantCode merchantCode: String!, withAmount amount: String!, withResult result: String!) {
         
+        self.onPaymentFailed?(refNo, transId, amount, remark, tokenId, ccName, ccNo, s_bankname, s_country, errDesc)
     }
     
-    public func requeryFailed(_ refNo: String!, withMerchantCode merchantCode: String!, withAmount amount: String!, withErrDesc errDesc: String!) {
-
+    func paymentCancelled(
+        _ refNo: String!,
+        withTransId transId: String!,
+        withAmount amount: String!,
+        withRemark remark: String!,
+        withTokenId tokenId: String!,
+        withCCName ccName: String!,
+        withCCNo ccNo: String!,
+        withS_bankname s_bankname: String!,
+        withS_country s_country: String!,
+        withErrDesc errDesc: String!
+    ) {
+        self.onPaymentCancelled?(refNo, transId, amount, remark, tokenId, ccName, ccNo, s_bankname, s_country, errDesc)
+    }
+            
+    func requerySuccess(
+        _ refNo: String!,
+        withMerchantCode merchantCode: String!,
+        withAmount amount: String!,
+        withResult result: String!
+    ) {
+        self.onPaymentSucceeded?(refNo, nil, amount, nil, nil, nil, nil, nil, nil, nil)
+    }
+    
+    func requeryFailed(
+        _ refNo: String!,
+        withMerchantCode merchantCode: String!,
+        withAmount amount: String!,
+        withErrDesc errDesc: String!)
+    {
+        self.onPaymentFailed?(refNo, nil, amount, nil, nil, nil, nil, nil, nil, errDesc)
     }
 }
 
