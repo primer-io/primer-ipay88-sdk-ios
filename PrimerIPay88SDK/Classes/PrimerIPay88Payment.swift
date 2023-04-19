@@ -19,7 +19,7 @@ public class PrimerIPay88Payment: NSObject {
     public internal(set) var prodDesc: String
     public internal(set) var userName: String
     public internal(set) var userEmail: String
-    public internal(set) var userContact: String
+    public internal(set) var userContact: String?
     public internal(set) var remark: String?
     public internal(set) var lang: String?
     public internal(set) var country: String
@@ -43,7 +43,7 @@ public class PrimerIPay88Payment: NSObject {
         prodDesc: String,
         userName: String,
         userEmail: String,
-        userContact: String,
+        userContact: String?,
         remark: String?,
         lang: String?,
         country: String,
@@ -91,9 +91,9 @@ public class PrimerIPay88Payment: NSObject {
         iPay88Payment.prodDesc = self.prodDesc
         iPay88Payment.userName = self.userName
         iPay88Payment.userEmail = self.userEmail
-        iPay88Payment.userContact = self.userContact
         iPay88Payment.remark = self.remark
         iPay88Payment.lang = self.lang
+        iPay88Payment.userContact = self.userContact ?? ""
         iPay88Payment.country = self.country
         iPay88Payment.backendPostURL = self.backendPostURL
         iPay88Payment.appdeeplink = self.appdeeplink
