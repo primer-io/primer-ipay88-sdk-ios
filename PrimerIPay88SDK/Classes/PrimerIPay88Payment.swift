@@ -91,16 +91,16 @@ public class PrimerIPay88Payment: NSObject {
         iPay88Payment.prodDesc = self.prodDesc
         iPay88Payment.userName = self.userName
         iPay88Payment.userEmail = self.userEmail
-        iPay88Payment.remark = self.remark
-        iPay88Payment.lang = self.lang
         iPay88Payment.userContact = self.userContact ?? ""
+        iPay88Payment.remark = self.remark ?? ""
+        iPay88Payment.lang = self.lang ?? ""
         iPay88Payment.country = self.country
         iPay88Payment.backendPostURL = self.backendPostURL
-        iPay88Payment.appdeeplink = self.appdeeplink
+        iPay88Payment.appdeeplink = self.appdeeplink ?? ""
         iPay88Payment.actionType = self.actionType
         iPay88Payment.tokenId = ""
-        iPay88Payment.promoCode = self.promoCode
-        iPay88Payment.fixPaymentId = self.fixPaymentId
+        iPay88Payment.promoCode = self.promoCode ?? ""
+        iPay88Payment.fixPaymentId = self.fixPaymentId ?? ""
         
         return iPay88Payment
     }
