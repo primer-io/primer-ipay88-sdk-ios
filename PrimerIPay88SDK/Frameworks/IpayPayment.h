@@ -13,7 +13,6 @@
     NSString *prodDesc;
     NSString *userName;
     NSString *userEmail;
-    NSString *userContact;
     NSString *remark;
     NSString *lang;
     NSString *country;
@@ -39,7 +38,6 @@
 @property (nonatomic, retain) NSString *prodDesc;
 @property (nonatomic, retain) NSString *userName;
 @property (nonatomic, retain) NSString *userEmail;
-@property (nonatomic, retain) NSString *userContact;
 @property (nonatomic, retain) NSString *remark;
 @property (nonatomic, retain) NSString *lang;
 @property (nonatomic, retain) NSString *country;
