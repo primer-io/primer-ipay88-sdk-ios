@@ -91,7 +91,6 @@ public class PrimerIPay88Payment: NSObject {
         iPay88Payment.prodDesc = self.prodDesc
         iPay88Payment.userName = self.userName
         iPay88Payment.userEmail = self.userEmail
-        iPay88Payment.userContact = self.userContact
         iPay88Payment.remark = self.remark
         iPay88Payment.lang = self.lang
         iPay88Payment.country = self.country
