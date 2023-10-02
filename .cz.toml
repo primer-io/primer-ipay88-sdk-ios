@@ -3,5 +3,5 @@ version_scheme = "semver"
 version = "0.1.5"
 version_files = [
   "PrimerIPay88SDK/Classes/version.swift:let PrimerIPay88SDKVersion",
-  "PrimerSDK.podspec:s.version"
+  "PrimerIPay88MYSDK.podspec:s.version"
 ]
