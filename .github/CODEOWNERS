@@ -1,0 +1,5 @@
+.github/CODEOWNERS                              @primer-io/checkout-pci-reviewers
+.github/workflows                               @primer-io/checkout-pci-reviewers
+
+/Sources/PrimerIPay88SDK/Classes/version.swift  @primer-io/checkout-pci-reviewers
+PrimerIPay88MYSDK.podspec                         @primer-io/checkout-pci-reviewers
