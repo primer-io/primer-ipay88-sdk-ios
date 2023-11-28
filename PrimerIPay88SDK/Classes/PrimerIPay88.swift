@@ -1,6 +1,3 @@
-
-#if canImport(UIKit)
-
 import UIKit
 
 public protocol PrimerIPay88ViewControllerDelegate: AnyObject {
@@ -226,5 +223,3 @@ class IPay88DelegateProxy: NSObject, PaymentResultDelegate {
         self.onPaymentFailed?(refNo, nil, amount, nil, nil, nil, nil, nil, nil, errDesc)
     }
 }
-
-#endif
