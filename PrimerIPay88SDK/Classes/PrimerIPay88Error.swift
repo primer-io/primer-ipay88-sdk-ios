@@ -5,8 +5,6 @@
 //  Created by Evangelos on 12/12/22.
 //
 
-#if canImport(UIKit)
-
 import Foundation
 
 internal protocol PrimerIPay88ErrorProtocol: CustomNSError, LocalizedError {
@@ -90,5 +88,3 @@ fileprivate extension Array where Element == Error {
         return "[\(message)]"
     }
 }
-
-#endif
