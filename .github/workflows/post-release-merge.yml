@@ -1,15 +1,12 @@
-name: Post PR Merge
+name: Post Release PR Merge
 
-on: workflow_dispatch
-  # pull_request:
-  #   # Patterns matched against refs/heads
-  #   branches:
-  #     - release/next
-  #   types: [ closed ]
+on:
+  pull_request:
+    types: [ closed ]
 
 jobs:
   release_merge:
-    if: github.event.pull_request.merged == true
+    if: github.head_ref == 'release/next' && github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Git - Checkout
@@ -26,9 +23,3 @@ jobs:
         run: |
           git tag $RELEASE_VERSION
           git push origin $RELEASE_VERSION
-      - name: Create a Release
-        uses: elgohr/Github-Release-Action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_ACCESS_TOKEN }}
-        with:
-          title: Release ${{ env.RELEASE_VERSION }}
