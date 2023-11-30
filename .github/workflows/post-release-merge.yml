@@ -32,4 +32,3 @@ jobs:
           name: "Release ${{ env.RELEASE_VERSION }}"
           tag: ${{ env.RELEASE_VERSION }}
           bodyFile: "release.md"
-
