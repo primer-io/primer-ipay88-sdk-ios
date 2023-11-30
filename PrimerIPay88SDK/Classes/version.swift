@@ -1,1 +1,1 @@
-let PrimerIPay88SDKVersion = "7"
+let PrimerIPay88SDKVersion = "0.1.7"
