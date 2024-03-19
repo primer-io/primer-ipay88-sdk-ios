@@ -5,14 +5,6 @@ let danger = Danger()
 let pr = danger.github.pullRequest
 let isReleasePr = pr.head.ref.hasPrefix("release")
 
-func isConventionalCommitTitle() -> Bool {
-    // Commitizen-compatible conventional commit titles
-    pr.title.hasPrefix("BREAKING CHANGE:") ||
-    pr.title.hasPrefix("chore:") ||
-    pr.title.hasPrefix("fix:") ||
-    pr.title.hasPrefix("feat:")
-}
-
 // MARK: - Conventional Commit Title
 let validPrefixes = ["fix", "feat", "chore", "ci", "refactor", "docs",
                      "perf", "test", "build", "revert", "style", "BREAKING CHANGE"]
