@@ -3,7 +3,6 @@ import Foundation
 
 let danger = Danger()
 let pr = danger.github.pullRequest
-let isReleasePr = pr.head.ref.hasPrefix("release")
 
 // MARK: - Conventional Commit Title
 let validPrefixes = ["fix", "feat", "chore", "ci", "refactor", "docs",
