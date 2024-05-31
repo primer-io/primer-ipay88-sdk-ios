@@ -12,7 +12,8 @@ let package = Package(
         .library(
             name: "PrimerIPay88MYSDK",
             targets: [
-                "PrimerIPay88MYSDK"
+                "PrimerIPay88MYSDK",
+                "libipay88sdk"
             ]
         )
     ],
