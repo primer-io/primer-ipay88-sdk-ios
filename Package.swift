@@ -11,10 +11,8 @@ let package = Package(
     products: [
         .library(
             name: "PrimerIPay88MYSDK",
-            type: .static,
             targets: [
-                "PrimerIPay88MYSDK",
-                "libipay88sdk"
+                "PrimerIPay88MYSDK"
             ]
         )
     ],
