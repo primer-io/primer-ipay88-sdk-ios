@@ -7,7 +7,7 @@
 
 import Foundation
 #if canImport(libipay88sdk)
-import libipay88sdk
+@_implementationOnly import libipay88sdk
 #endif
 
 public class PrimerIPay88Payment: NSObject {

@@ -1,6 +1,6 @@
 import UIKit
 #if canImport(libipay88sdk)
-import libipay88sdk
+@_implementationOnly import libipay88sdk
 #endif
 
 public protocol PrimerIPay88ViewControllerDelegate: AnyObject {
