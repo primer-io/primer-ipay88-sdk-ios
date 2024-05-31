@@ -1,4 +1,7 @@
 import UIKit
+#if canImport(libipay88sdk)
+import libipay88sdk
+#endif
 
 public protocol PrimerIPay88ViewControllerDelegate: AnyObject {
     func primerIPay88ViewDidLoad()

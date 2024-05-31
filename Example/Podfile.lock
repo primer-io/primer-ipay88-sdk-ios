@@ -1,16 +1,16 @@
 PODS:
-  - PrimerIPay88SDK (0.1.0)
+  - PrimerIPay88MYSDK (0.1.7)
 
 DEPENDENCIES:
-  - PrimerIPay88SDK (from `../`)
+  - PrimerIPay88MYSDK (from `../`)
 
 EXTERNAL SOURCES:
-  PrimerIPay88SDK:
+  PrimerIPay88MYSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PrimerIPay88SDK: fca0a3c258198420905d052e9e11467075bd1f84
+  PrimerIPay88MYSDK: aa6fc077be73bdea6bd0eefc32f4cd89762b71e7
 
-PODFILE CHECKSUM: c853ad3af2f4a234c6124dce5bf6decc78b4bda0
+PODFILE CHECKSUM: 9e925d16a9d327d18e9fff6976dbe3ee63b57eff
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.3

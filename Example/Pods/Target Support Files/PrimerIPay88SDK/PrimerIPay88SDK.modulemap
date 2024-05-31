@@ -1,6 +1,0 @@
-framework module PrimerIPay88SDK {
-  umbrella header "PrimerIPay88SDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -13,6 +13,6 @@
 #import "Ipay.h"
 #import "IpayPayment.h"
 
-FOUNDATION_EXPORT double PrimerIPay88SDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char PrimerIPay88SDKVersionString[];
+FOUNDATION_EXPORT double PrimerIPay88MYSDKVersionNumber;
+FOUNDATION_EXPORT const unsigned char PrimerIPay88MYSDKVersionString[];
 

@@ -6,17 +6,122 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04CE16E32C09C89A00620CEA /* PrimerIPay88SDK_ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE16E22C09C89A00620CEA /* PrimerIPay88SDK_ExampleApp.swift */; };
+		04CE16E52C09C89A00620CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE16E42C09C89A00620CEA /* ContentView.swift */; };
+		04CE16E72C09C89B00620CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE16E62C09C89B00620CEA /* Assets.xcassets */; };
+		04CE16EA2C09C89B00620CEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE16E92C09C89B00620CEA /* Preview Assets.xcassets */; };
+		04CE16F42C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE16F32C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.swift */; };
+		04CE16FE2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE16FD2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.swift */; };
+		04CE17002C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE16FF2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITestsLaunchTests.swift */; };
+		B1F7D2758CADFD0E3C09FA04 /* Pods_PrimerIPay88SDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E34F472DEB43BF0C8891E18 /* Pods_PrimerIPay88SDK_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CE16F02C09C89B00620CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CE16DF2C09C89A00620CEA;
+			remoteInfo = PrimerIPay88SDK_Example;
+		};
+		04CE16FA2C09C89B00620CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CE16DF2C09C89A00620CEA;
+			remoteInfo = PrimerIPay88SDK_Example;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0284231D28AFF631D3892B41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04CE16E02C09C89A00620CEA /* PrimerIPay88SDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimerIPay88SDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE16E22C09C89A00620CEA /* PrimerIPay88SDK_ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerIPay88SDK_ExampleApp.swift; sourceTree = "<group>"; };
+		04CE16E42C09C89A00620CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04CE16E62C09C89B00620CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CE16E92C09C89B00620CEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04CE16EF2C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimerIPay88SDK_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE16F32C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerIPay88SDK_ExampleTests.swift; sourceTree = "<group>"; };
+		04CE16F92C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimerIPay88SDK_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CE16FD2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerIPay88SDK_ExampleUITests.swift; sourceTree = "<group>"; };
+		04CE16FF2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimerIPay88SDK_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2780D4F22A30457B7F14A696 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		472675E722C0E205B2656D0F /* Pods-PrimerIPay88SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimerIPay88SDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-PrimerIPay88SDK_Example/Pods-PrimerIPay88SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		628FB5C7263F9439B9C14C82 /* PrimerIPay88SDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrimerIPay88SDK.podspec; path = ../PrimerIPay88SDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7ED1DF2AB42B3951A6E982EA /* Pods-PrimerIPay88SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimerIPay88SDK_Example.release.xcconfig"; path = "Target Support Files/Pods-PrimerIPay88SDK_Example/Pods-PrimerIPay88SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8E34F472DEB43BF0C8891E18 /* Pods_PrimerIPay88SDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrimerIPay88SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		04CE16DD2C09C89A00620CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F7D2758CADFD0E3C09FA04 /* Pods_PrimerIPay88SDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE16EC2C09C89B00620CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE16F62C09C89B00620CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		04CE16E12C09C89A00620CEA /* PrimerIPay88SDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				04CE16E22C09C89A00620CEA /* PrimerIPay88SDK_ExampleApp.swift */,
+				04CE16E42C09C89A00620CEA /* ContentView.swift */,
+				04CE16E62C09C89B00620CEA /* Assets.xcassets */,
+				04CE16E82C09C89B00620CEA /* Preview Content */,
+			);
+			path = PrimerIPay88SDK_Example;
+			sourceTree = "<group>";
+		};
+		04CE16E82C09C89B00620CEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04CE16E92C09C89B00620CEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04CE16F22C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CE16F32C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.swift */,
+			);
+			path = PrimerIPay88SDK_ExampleTests;
+			sourceTree = "<group>";
+		};
+		04CE16FC2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04CE16FD2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.swift */,
+				04CE16FF2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITestsLaunchTests.swift */,
+			);
+			path = PrimerIPay88SDK_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				04CE16E12C09C89A00620CEA /* PrimerIPay88SDK_Example */,
+				04CE16F22C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests */,
+				04CE16FC2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				9397DD543C6CE3048704E0AD /* Pods */,
 				D5A204CA9DD7835CFDEEF209 /* Frameworks */,
@@ -26,6 +131,9 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				04CE16E02C09C89A00620CEA /* PrimerIPay88SDK_Example.app */,
+				04CE16EF2C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.xctest */,
+				04CE16F92C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -43,6 +151,8 @@
 		9397DD543C6CE3048704E0AD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				472675E722C0E205B2656D0F /* Pods-PrimerIPay88SDK_Example.debug.xcconfig */,
+				7ED1DF2AB42B3951A6E982EA /* Pods-PrimerIPay88SDK_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -50,19 +160,97 @@
 		D5A204CA9DD7835CFDEEF209 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E34F472DEB43BF0C8891E18 /* Pods_PrimerIPay88SDK_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		04CE16DF2C09C89A00620CEA /* PrimerIPay88SDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE17072C09C89B00620CEA /* Build configuration list for PBXNativeTarget "PrimerIPay88SDK_Example" */;
+			buildPhases = (
+				6BDF4B5FB27FB2CBA76CF20C /* [CP] Check Pods Manifest.lock */,
+				04CE16DC2C09C89A00620CEA /* Sources */,
+				04CE16DD2C09C89A00620CEA /* Frameworks */,
+				04CE16DE2C09C89A00620CEA /* Resources */,
+				614F5A1E4379A14E14745EC6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimerIPay88SDK_Example;
+			productName = PrimerIPay88SDK_Example;
+			productReference = 04CE16E02C09C89A00620CEA /* PrimerIPay88SDK_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CE16EE2C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE17082C09C89B00620CEA /* Build configuration list for PBXNativeTarget "PrimerIPay88SDK_ExampleTests" */;
+			buildPhases = (
+				04CE16EB2C09C89B00620CEA /* Sources */,
+				04CE16EC2C09C89B00620CEA /* Frameworks */,
+				04CE16ED2C09C89B00620CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CE16F12C09C89B00620CEA /* PBXTargetDependency */,
+			);
+			name = PrimerIPay88SDK_ExampleTests;
+			productName = PrimerIPay88SDK_ExampleTests;
+			productReference = 04CE16EF2C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04CE16F82C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CE17092C09C89B00620CEA /* Build configuration list for PBXNativeTarget "PrimerIPay88SDK_ExampleUITests" */;
+			buildPhases = (
+				04CE16F52C09C89B00620CEA /* Sources */,
+				04CE16F62C09C89B00620CEA /* Frameworks */,
+				04CE16F72C09C89B00620CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CE16FB2C09C89B00620CEA /* PBXTargetDependency */,
+			);
+			name = PrimerIPay88SDK_ExampleUITests;
+			productName = PrimerIPay88SDK_ExampleUITests;
+			productReference = 04CE16F92C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					04CE16DF2C09C89A00620CEA = {
+						CreatedOnToolsVersion = 15.3;
+						DevelopmentTeam = N8UN9TR5DY;
+						ProvisioningStyle = Automatic;
+					};
+					04CE16EE2C09C89B00620CEA = {
+						CreatedOnToolsVersion = 15.3;
+						DevelopmentTeam = N8UN9TR5DY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CE16DF2C09C89A00620CEA;
+					};
+					04CE16F82C09C89B00620CEA = {
+						CreatedOnToolsVersion = 15.3;
+						DevelopmentTeam = N8UN9TR5DY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04CE16DF2C09C89A00620CEA;
+					};
+				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PrimerIPay88SDK" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -78,11 +266,342 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				04CE16DF2C09C89A00620CEA /* PrimerIPay88SDK_Example */,
+				04CE16EE2C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests */,
+				04CE16F82C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		04CE16DE2C09C89A00620CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE16EA2C09C89B00620CEA /* Preview Assets.xcassets in Resources */,
+				04CE16E72C09C89B00620CEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE16ED2C09C89B00620CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE16F72C09C89B00620CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		614F5A1E4379A14E14745EC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrimerIPay88SDK_Example/Pods-PrimerIPay88SDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PrimerIPay88MYSDK/PrimerIPay88MYSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrimerIPay88MYSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrimerIPay88SDK_Example/Pods-PrimerIPay88SDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BDF4B5FB27FB2CBA76CF20C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrimerIPay88SDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CE16DC2C09C89A00620CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE16E52C09C89A00620CEA /* ContentView.swift in Sources */,
+				04CE16E32C09C89A00620CEA /* PrimerIPay88SDK_ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE16EB2C09C89B00620CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE16F42C09C89B00620CEA /* PrimerIPay88SDK_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CE16F52C09C89B00620CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CE17002C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITestsLaunchTests.swift in Sources */,
+				04CE16FE2C09C89B00620CEA /* PrimerIPay88SDK_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CE16F12C09C89B00620CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CE16DF2C09C89A00620CEA /* PrimerIPay88SDK_Example */;
+			targetProxy = 04CE16F02C09C89B00620CEA /* PBXContainerItemProxy */;
+		};
+		04CE16FB2C09C89B00620CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CE16DF2C09C89A00620CEA /* PrimerIPay88SDK_Example */;
+			targetProxy = 04CE16FA2C09C89B00620CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		04CE17012C09C89B00620CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472675E722C0E205B2656D0F /* Pods-PrimerIPay88SDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"PrimerIPay88SDK_Example/Preview Content\"";
+				DEVELOPMENT_TEAM = N8UN9TR5DY;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.primer.jnewc.PrimerIPay88SDK-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04CE17022C09C89B00620CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED1DF2AB42B3951A6E982EA /* Pods-PrimerIPay88SDK_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrimerIPay88SDK_Example/Preview Content\"";
+				DEVELOPMENT_TEAM = N8UN9TR5DY;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.primer.jnewc.PrimerIPay88SDK-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04CE17032C09C89B00620CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N8UN9TR5DY;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.primer.jnewc.PrimerIPay88SDK-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimerIPay88SDK_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrimerIPay88SDK_Example";
+			};
+			name = Debug;
+		};
+		04CE17042C09C89B00620CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8UN9TR5DY;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.primer.jnewc.PrimerIPay88SDK-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimerIPay88SDK_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrimerIPay88SDK_Example";
+			};
+			name = Release;
+		};
+		04CE17052C09C89B00620CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N8UN9TR5DY;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.primer.jnewc.PrimerIPay88SDK-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrimerIPay88SDK_Example;
+			};
+			name = Debug;
+		};
+		04CE17062C09C89B00620CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8UN9TR5DY;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.primer.jnewc.PrimerIPay88SDK-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrimerIPay88SDK_Example;
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -185,6 +704,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04CE17072C09C89B00620CEA /* Build configuration list for PBXNativeTarget "PrimerIPay88SDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE17012C09C89B00620CEA /* Debug */,
+				04CE17022C09C89B00620CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE17082C09C89B00620CEA /* Build configuration list for PBXNativeTarget "PrimerIPay88SDK_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE17032C09C89B00620CEA /* Debug */,
+				04CE17042C09C89B00620CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CE17092C09C89B00620CEA /* Build configuration list for PBXNativeTarget "PrimerIPay88SDK_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CE17052C09C89B00620CEA /* Debug */,
+				04CE17062C09C89B00620CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PrimerIPay88SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

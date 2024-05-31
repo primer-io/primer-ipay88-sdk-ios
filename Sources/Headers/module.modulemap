@@ -1,0 +1,5 @@
+module libipay88sdk {
+    header "Ipay.h"
+    header "IpayPayment.h"
+    export *
+}

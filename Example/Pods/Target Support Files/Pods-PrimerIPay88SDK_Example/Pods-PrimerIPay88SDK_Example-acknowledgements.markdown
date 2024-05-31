@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## PrimerIPay88SDK
+## PrimerIPay88MYSDK
 
 Copyright (c) 2022 EvansPie <evangelos@primer.io>
 

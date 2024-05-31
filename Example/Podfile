@@ -3,5 +3,5 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'PrimerIPay88SDK_Example' do
-  pod 'PrimerIPay88SDK', :path => '../'
+  pod 'PrimerIPay88MYSDK', :path => '../'
 end
