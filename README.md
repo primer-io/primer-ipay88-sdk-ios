@@ -1,10 +1,5 @@
 # PrimerIPay88SDK
 
-[![CI Status](https://img.shields.io/travis/EvansPie/PrimerIPay88SDK.svg?style=flat)](https://travis-ci.org/EvansPie/PrimerIPay88SDK)
-[![Version](https://img.shields.io/cocoapods/v/PrimerIPay88SDK.svg?style=flat)](https://cocoapods.org/pods/PrimerIPay88SDK)
-[![License](https://img.shields.io/cocoapods/l/PrimerIPay88SDK.svg?style=flat)](https://cocoapods.org/pods/PrimerIPay88SDK)
-[![Platform](https://img.shields.io/cocoapods/p/PrimerIPay88SDK.svg?style=flat)](https://cocoapods.org/pods/PrimerIPay88SDK)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -13,11 +8,19 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-PrimerIPay88SDK is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Swift Package Manager
+
+Add `https://github.com/primer-io/primer-sdk-ios` to your app with the Exact Version rule, set to the PrimerSDK version that ends in `-3ds-ipay88` (for example `2.53.1-3ds-ipay88`). That version brings in PrimerIPay88MYSDK. Do not add this package next to PrimerSDK yourself, because PrimerSDK may then build without it.
+
+### CocoaPods
+
+Add the Primer spec repo and the CocoaPods CDN at the top of your Podfile, in this order. Then add the pod:
 
 ```ruby
-pod 'PrimerIPay88SDK'
+source 'https://github.com/primer-io/primer-sdk-ios-specs.git'
+source 'https://cdn.cocoapods.org/'
+
+pod 'PrimerIPay88MYSDK'
 ```
 
 ## Author
