@@ -21,7 +21,5 @@ build-and-release:
       git config --global user.email "$GITLAB_USER_EMAIL"
     - pod repo add primer-sdk-ios-specs https://github.com/primer-io/primer-sdk-ios-specs.git --allow-root
     - pod repo push primer-sdk-ios-specs --allow-root --allow-warnings --use-json --sources=primer-sdk-ios-specs,https://cdn.cocoapods.org/
-    # CocoaPods trunk accepts no new versions from 2 Dec 2026.
-    - if [ "$(date -u +%Y%m%d)" -lt 20261202 ]; then pod trunk push --allow-root; fi
   when: manual
   environment: production
