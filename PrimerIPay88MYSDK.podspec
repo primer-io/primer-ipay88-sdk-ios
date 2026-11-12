@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '10.0'
     
-    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/Frameworks/Ipay.h', 'PrimerIPay88SDK/Frameworks/IpayPayment.h', 'PrimerIPay88SDK/Frameworks/libipay88sdk.xcframework'
+    s.source_files = 'PrimerIPay88SDK/Classes/**/*', 'PrimerIPay88SDK/IPay88ObjC/include/*.h', 'PrimerIPay88SDK/Frameworks/libipay88sdk.xcframework'
     s.vendored_frameworks = 'PrimerIPay88SDK/Frameworks/libipay88sdk.xcframework'
 end

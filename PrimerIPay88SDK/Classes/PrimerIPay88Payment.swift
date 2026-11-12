@@ -6,6 +6,9 @@
 //
 
 import Foundation
+#if SWIFT_PACKAGE
+import IPay88ObjC
+#endif
 
 public class PrimerIPay88Payment: NSObject {
     
