@@ -1,3 +1,9 @@
+## 0.2.0 (2026-11-23)
+
+### Feat
+
+- Add Swift Package Manager support (ORC-7739) (#18)
+
 ## 0.1.7 (2023-11-29)
 
 ### Fix
