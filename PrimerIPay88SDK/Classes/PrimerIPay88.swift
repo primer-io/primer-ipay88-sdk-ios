@@ -1,4 +1,7 @@
 import UIKit
+#if SWIFT_PACKAGE
+import IPay88ObjC
+#endif
 
 public protocol PrimerIPay88ViewControllerDelegate: AnyObject {
     func primerIPay88ViewDidLoad()
